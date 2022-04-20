@@ -1,8 +1,5 @@
 module.exports = {
   ci: {
-    upload: {
-      target: 'temporary-public-storage',
-    },
     assert: {
       assertions: {
 	      'categories:performance': 'off',
