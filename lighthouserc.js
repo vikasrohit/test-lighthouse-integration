@@ -1,5 +1,12 @@
 module.exports = {
   ci: {
+    collect: {
+      numberOfRuns: 1,
+      settings: {
+        chromeFlags: '--disk-cache-size=0 --no-sandbox --headless --disable-dev-shm-usage',
+      },
+      url: ['https://www.integration.propertyguru.com.sg/singapore-property-listing/hdb'],
+    },
     assert: {
       assertions: {
 	      'categories:performance': 'off',
