@@ -3,7 +3,7 @@ module.exports = {
     collect: {
       numberOfRuns: 1,
       settings: {
-        chromeFlags: '--disk-cache-size=0 --no-sandbox --headless --disable-dev-shm-usage',
+        chromeFlags: '--disk-cache-size=0 --no-sandbox --headless --disable-dev-shm-usage --disable-gpu',
       },
       url: ['https://www.integration.propertyguru.com.sg/property-for-sale'],
     },
