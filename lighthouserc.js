@@ -1,7 +1,7 @@
 module.exports = {
   ci: {
     collect: {
-      numberOfRuns: 1,
+      numberOfRuns: 3,
       settings: {
         chromeFlags: '--disk-cache-size=0 --no-sandbox --headless --disable-dev-shm-usage --disable-gpu',
       },
@@ -9,9 +9,9 @@ module.exports = {
     },
     assert: {
       assertions: {
-	      'categories:performance': 'off',
-    	  'categories:accessibility': 'off',
-        'cumulative-layout-shift':["warn", {"maxNumericValue": 0.011}],
+	'categories:performance': 'off',
+    	'categories:accessibility': 'off',
+        'cumulative-layout-shift':["warn"],
         'first-contentful-paint':'on',
 
         'csp-xss': 'off',
