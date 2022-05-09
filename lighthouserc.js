@@ -13,5 +13,8 @@ module.exports = {
         'cumulative-layout-shift':["warn"],
       },
     },
+    upload: {
+      target: 'temporary-public-storage',
+    },
   },
 };
