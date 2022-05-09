@@ -8,7 +8,6 @@ module.exports = {
       url: ['https://www.integration.propertyguru.com.sg/singapore-property-listing/hdb'],
     },
     assert: {
-      preset: 'lighthouse:recommended',
       assertions: {
         'cumulative-layout-shift':["warn"],
       },
