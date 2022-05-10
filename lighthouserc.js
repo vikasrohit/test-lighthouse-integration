@@ -9,7 +9,7 @@ module.exports = {
     },
     assert: {
       assertions: {
-        'cumulative-layout-shift':["error"],
+        'cumulative-layout-shift':["warn"],
       },
     },
     upload: {
