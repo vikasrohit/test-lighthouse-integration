@@ -5,11 +5,11 @@ module.exports = {
       settings: {
         chromeFlags: '--disk-cache-size=0 --no-sandbox --headless --disable-dev-shm-usage --disable-gpu',
       },
-      url: ['https://www.integration.propertyguru.com.sg/singapore-property-listing/hdb'],
+      url: ['https://www.integration.propertyguru.com.sg/singapore-property-listing/hdb', 'https://www.integration.propertyguru.com.sg/property-for-sale'],
     },
     assert: {
+      preset: "lighthouse:no-pwa",
       assertions: {
-        "categories:performance": ["warn", {"minScore": 0.9}],
       },
     },
     upload: {
