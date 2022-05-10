@@ -9,7 +9,7 @@ module.exports = {
     },
     assert: {
       assertions: {
-        'cumulative-layout-shift': "on",
+        "categories:performance": ["warn", {"minScore": 0.9}],
       },
     },
     upload: {
